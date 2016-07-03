@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">
+
+</head>
+<body>
+    <header class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <span class="logo">Монгольфьеркин и КО</span>
+                </div>
+                <nav class="col-8 main-nav">
+                    <ul>
+                        <li><a href="#about">Кто мы</a></li>
+                        <li><a href="#gallery">Фотографии</a></li>
+                        <li><a href="#flying">План полета</a></li>
+                        <li><a href="#money">Заказать</a></li>
+                        <li><a href="#instructors">Команда</a></li>
+                        <li><a href="#coordinates">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="promo">
+            <div class="container">
+                <h1 class="promo__head">Организация полетов на воздушных шарах</h1>
+                <a href="#" class="btn btn-more">Подробнее</a>
+            </div>
+        </div>
+        <div class="advantages" id="advantages">
+            <div class="container">
+                <ul class="row">
+                    <li class="col-3 advantages__item advantages__icon--finger">Современный надежный шар</li>
+                    <li class="col-3 advantages__item advantages__icon--glasses">Обучение пилотированию</li>
+                    <li class="col-3 advantages__item advantages__icon--photo">Фотосъемка в полете</li>
+                    <li class="col-3 advantages__item advantages__icon--binoculars">Потрясающие виды</li>
+                </ul>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 about__description">
+                        <h2 class="about__head second_title">Вкраце</h2>
+
+                        <p class="about__text">Более 5 лет воздухоплавательная команда Нева-Аэро выполняет полеты на воздушных шарахдля гостей и жителей Петербурга над одними из самых живописных мест России - Царских селом и Павловским, возведенных в Пушкинском районе Санкт-Петербурга.</p>
+                        <p class="about__text">Мы предлагаем полететь с нами!</p>
+                    </div>
+                    <div class="col-6 about__video">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery" id="gallery">
+            <div class="container">
+                <h2 class="text gallery_text title">Галерея</h2>
+
+                <div class="gallery__carousel js-gallery">
+                          <div> <img src="img/shar1.jpg" alt=""> </div>
+                          <div> <img src="img/shar2.jpg" alt=""> </div>
+                          <div> <img src="img/shar3.jpg" alt=""> </div>
+                          <div> <img src="img/shar4.jpg" alt=""> </div>
+                          <div> <img src="img/shar4.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="flying" id="flying">
+            <div class="container">
+                <h2 class="text flying_text">Как проходят полеты</h2>
+
+                    <div class="flying-item flying-item1">
+                        <div class="flying-number">1</div>
+                        <div class="flying-text">Взлет</div>
+                    </div>
+                    <div class="flying-item flying-item2">
+                        <div class="flying-number">2</div>
+                        <div class="flying-text">Набираем высоту</div>
+                    </div>
+                    <div class="flying-item flying-item3">
+                        <div class="flying-number">3</div>
+                        <div class="flying-text">Летаем</div>
+                    </div>
+                    <div class="flying-item flying-item4">
+                        <div class="flying-number">4</div>
+                        <div class="flying-text">Снижаемся</div>
+                    </div>
+                    <div class="flying-item flying-item5">
+                        <div class="flying-number">5</div>
+                        <div class="flying-text">Садимся</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="time">
+            <div class="container">
+                <p class="time_text"></p>
+            </div>
+            <div class="timer">
+              <span class="title">Стартуем:</span>
+
+              <span class="count">
+                <span class="days">00</span>
+                <span class="measure measure-days">дней</span>
+              </span>
+
+              <span class="count">
+                <span class="hours">00</span>
+                <span class="measure measure-hours">часов</span>
+              </span>
+
+              <span class="count">
+                <span class="minutes">00</span>
+                <span class="measure measure-minutes">минут</span>
+              </span>
+
+              <span class="count">
+                <span class="seconds">00</span>
+                <span class="measure measure-seconds">секунд</span>
+              </span>
+            </div>
+        </div>
+        <div class="money" id="money">
+            <div class="container">
+                <div class="row">
+                    <div class="money_money col-6">
+                    <h2 class="text">расчитать стоимость</h2>
+                    <p>Итак, в назначенное время вы приехали на место полета. Команда уже готовит шар к полету определяется направление ветра, запускаются горелки.</p>
+                    <p>Оболочка начинает заполняться телпым воздухо, и аэростат делает первый "вздох".</p>
+                    <p></p>
+                    </div>
+                    <div class="money_form col-6">
+                        <div class="form-order">
+                            <div class="container">
+                                <h3 class="form-order_heading"></h3>
+                                <form action="#" class="form_order_from">
+                                    <div class="kol">
+                                         <label for="way_way">Маршрут полета:</label>
+                                        <input type="text" placeholder="Имя"/>
+                                    </div>
+                                    <div class="kol">
+                                        <label for="kol">Количество человек:</label>
+                                        <select name="kol" id=""><option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option></select>
+                                    </div>
+                                    <div class="kol">
+                                        <label for="name">Имя и фамилия:</label>
+                                        <input id="name" type="text" placeholder="Электропочта"/>
+                                    </div>
+                                    <div class="kol">
+                                        <label for="tele">Телефон:</label>
+                                        <input id="tele"  type="text" placeholder="Электропочта"/>
+                                    </div>
+                                    <!-- КАК СДЕЛАТЬ ЦЕНУ ПРАВИЛЬНО???-->
+                                    <p>Стоимость: 9000 Р</p>
+                                    <button class="form-order_btn"/>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="inform">
+            <div class="container">
+                <div class="row">
+                    <div class="payment col-6">
+                        <h2 class="text">Способ оплаты</h2>
+                        <h3>наличными</h3>
+                        <p  class="payment_nal">Вы можете оплатить услугу,  приехав к нам в офис. Для этого Вам необходимо предупредить об этом</p>
+                        <p></p>
+                        <p></p>
+                        <h3></h3>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="questions col-6">
+                        <h2 class="text"></h2>
+                        <h3></h3>
+                        <p></p>
+                        <h3></h3>
+                        <p></p>
+                        <h3></h3>
+                        <p></p>
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="statistics">
+            <div class="container">
+                <div class="do_poleta">
+                    <p class="do_poleta_text">До ближайшего полета: </p>
+                    <p class="do_poleta_text">  </p>
+                </div>
+            </div>
+        </div>
+        <div class="instructors" id="instructors"#>
+            <div class="container">
+                <h2 class="text instructors_text">Команда инструкторов</h2>
+                <div class="row">
+                    <div class="instructors one col-3">
+                        <div class="instructors_img">
+                                <img src="img/44444.png" src="" alt="img">
+                        </div>
+                        <h3>Мария Мариева</h3>
+                        <p class="stuff_name">Старший пилот</p>
+                    </div>
+                    <div class="instructors two col-3">
+                        <div class="instructors_img">
+                        <img src="img/2222.png"
+onmouseout='this.src="img/2222.png";'
+onmouseover='this.src="img/1111.png";' >
+
+                        </div>
+                        <h3>Надежда Надеждова</h3>
+                        <p class="stuff_name">Второй пилот</p>
+                    </div>
+                    <div class="instructors three col-3">
+                        <div class="instructors_img">
+                            <img src="img/333.png" src="" alt="img">
+                        </div>
+                        <h3>Ирина Иринова</h3>
+                        <p class="stuff_name">Авиадиспечер</p>
+                    </div>
+                    <div class="instructors four col-3">
+                        <div class="instructors_img">
+                            <img src="img/44444.png" src="" alt="img">
+                        </div>
+                         <h3>Алена Аленова</h3>
+                        <p class="stuff_name">Авиатехник</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="recall">
+            <div class="container">
+            <h2 class="text recall_text">Отзывы</h2>
+            <img src="img/linii.svg" alt="">
+                <div class="row">
+                     <div class="recall-one col-6">
+                        <div class="client_img">
+                            <img src="img/Ulyu.png" alt="img">
+                        </div>
+                         <h3>Ольга Алексеева</h3>
+                        <blockquote class="quote">Оооо это было чудесно!!! Я не знала что воздушные шары такие огромные. Забавно, большой шар и маленькая корзина. Полет восхитительный, выше всяческих похвал. мы побывали в самом красивом месте на Земле - в небе, оттуда открываются потрясающие виды.</blockquote>
+                    </div>
+                    <div class="recall-two col-6">
+                        <div class="client_img">
+                            <img src="img/Artem.png" src="" alt="img">
+                        </div>
+                        <h3>Артем Рыбкин</h3>
+                        <blockquote class="quote">Жене подарил полет на воздушном шаре. Сделал сюрприз на день рождения. Жена была в восторге, мне и самому понравилось, очень необычные ощущения от полета, хоть не самолет, а летит быстро, маршрут подобрали красивый. Спасибо вам, нам все понравилось.</blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="coordinates" id="coordinates"#>
+            <div class="container">
+                <div class="aero">
+                    <h3 class="text_coordinates">Запишите адрес аэропорта</h3>
+                    <p class="text_coordinates">Всеволожск, улица Аэродромная 19а</p>
+                </div>
+                <div class="row">
+                    <div class="coordinates_piter col-4">
+                        <h3>Наш офис в Питере</h3>
+                        <p>Литейный 14Б 12:00 - 19:00</p>
+                        <p>746-67-33</p>
+                    </div>
+                    <div class="coordinates_vsevolozsk col-4">
+                        <h3>Наш офис во Всеволожске:</h3>
+                        <p>Всеволожск, улица Аэродромная 19а</p>
+                        <p>746-67-33</p>
+                    </div>
+                    <div class="coordinates_pochta col-4">
+                        <p>mnebyvnebo@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="page-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <span class="logo">Монгольфьеркин и КО</span>
+                    </div>
+                    <nav class="col-8 main-nav">
+                        <ul>
+                        <li><a href="">Кто мы</a></li>
+                        <li><a href="">Фотографии</a></li>
+                        <li><a href="">План полета</a></li>
+                        <li><a href="">Заказать</a></li>
+                        <li><a href="">Команда</a></li>
+                        <li><a href="">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+      <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>

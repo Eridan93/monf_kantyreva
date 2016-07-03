@@ -1,0 +1,312 @@
+*{
+    --webkit-box-sizing: border-box;
+    --moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+.row{
+    margin-left: -18px;
+    margin-right: -18px;
+    padding: 15px;
+
+}
+.container:after, .row:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+[class*='col-']{
+    float: left;
+    padding-left: -18px;
+    padding-right: -18px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.col-1 {  width: 8.33%; }
+.col-2 {  width: 16.66%; }
+.col-3 {  width: 25%;      }
+.col-4 {  width: 33.33%; }
+.col-5 {  width: 41.66%; }
+.col-6 {  width: 50%;      }
+.col-7 {  width: 58.33%; }
+.col-8 {  width: 66.66%; }
+.col-9 {  width: 75%;      }
+.col-10 {  width: 83.11%; }
+.col-11 {  width: 91.66%; }
+.col-12 {  width: 100%;    }
+
+
+div[class*="column"] {  float: left; padding: 15px; }
+
+
+.row:after ,.clearfix:after {content:""; display: block; clear: both;}
+
+.pull-right {float:right}
+.pull-left{float:left}
+.text-right{text-align:right;}
+.text-center{text-align:center;}
+.inline-block {display: inline-block;}
+
+
+
+li{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.page-header, .page-nav{
+
+    color: white;
+    background-color: #2c2c2c;
+
+
+}
+.logo{
+    float: left;
+    font-size: 22px;
+}
+.main-nav{
+    float: right;
+}
+header{
+    overflow: hidden;
+}
+.promo{
+    background-image: url(../img/balls_fon.jpg);
+    height: 720px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+
+}
+.promo__head{
+    font-size: 66px;
+    text-align: center;
+    color: white;
+
+
+
+
+
+}
+.btn-more{
+    font-style: 18px;
+    text-align: center;
+}
+.advantages{
+    font-size: 18px;
+
+}
+
+.about__head{
+    font-size: 32px;
+}
+.about__text{
+    font-size: 18px;
+}
+
+.text{
+    font-size: 32px;
+}
+
+.promo, .flying_text, .instructors_text, .recall_text, .text_coordinates, .flying_text, .gallery_text, .recall, .instructors{
+    text-align: center;
+}}
+
+.do_poleta_text{
+color: #26668e;
+display: block;
+}
+
+body {
+width: 100%;
+min-width:960px;
+
+}
+
+.coordinates{
+    background-image: url(../img/sky.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+}
+.flying{
+    background-image: url(../img/way.png),
+    url(../img/mountain.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center, center top;
+
+    background-size: cover, cover;
+
+
+}
+
+.flying .container{
+position: relative;
+height: 484px;
+}
+.flying-item{
+    position: absolute;
+    height: 75px;
+    width: 50px;
+    background-image: url(../img/balls.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.gallery__carousel {
+    position: relative;
+
+}
+.slick-prev, .slick-next{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    background-color: transparent;
+    border: none;
+    color: #f44;
+    font-size: 2rem;
+}
+.title, .second_title{
+    position: relative;
+
+
+}
+
+.instructors_img img:hover{
+
+
+}
+
+
+.title:after{
+content: '';
+position: absolute;
+height: 5px;
+width: 20px;
+background-color: blue;
+left: 0;
+right: 0;
+bottom: -10px;
+margin: 0 auto;
+text-align: center;
+}
+.second_title:after{
+content: '';
+position: absolute;
+height: 5px;
+width: 20px;
+background-color: blue;
+left: 0;
+bottom: -10px;
+
+}
+
+.slick-prev{
+    left: 0;
+}
+.slick-next{
+    right: 0;
+}
+
+.flying-number{
+    color: #fff;
+    padding: 15px;
+}
+.flying-item1{
+    top: 288px;
+}
+.flying-item2{
+    left: 25%;
+    top: 209px;
+}
+.flying-item3{
+    left: 50%;
+    top: 109px;
+}
+.flying-item4{
+    right: 25%;
+    top: 240px;
+}
+.flying-item5{
+    right: 0;
+    top: 288px;
+}
+.flying-text{
+    text-align: center;
+    margin-top: -90px;
+    width: 20px;
+
+}
+
+
+input{
+
+}
+.gallery, .instructors{
+    text-align: center;
+}
+.kol{
+
+    margin-bottom: 5px;
+}
+label{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+}
+
+
+.page-header{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
